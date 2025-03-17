@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f8c5652577.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>                   
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li> 
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web developer</p>
+                <h1>Hi, I'm <br><span>Abhijeet Kumar</span><br> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="raw">
+                <div class="about-col-1">
+                    <img src="Images/WhatsApp_Image_2025-03-08_at_20.23.15_ae805078-removebg-preview (1).png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm Abhijeet Kumar, a passionate and innovative Web Developer with a focus on crafting exceptional user experiences.
+                         My journey in the digital realm began with a fascination for creating interactive and dynamic websites.
+                        </p>
+                          <div class="tab-titles">
+                            <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                          </div>
+                          <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>A Web Developer specializing in <span> HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, Python, Java and ReactJS.</span></li>
+                                <li>These skills form the backbone of my expertise in web development,
+                                     allowing me to create dynamic and visually appealing websites.
+                                      With a strong foundation in both front-end and back-end technologies,
+                                       I'm equipped to handle a wide range of development projects.</li>
+                               
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Web Developer</span><br>Bharat Intern · Internship <br>10 Oct 2023 - 10 Nov 2023</li>
+                                <li>As a Web Developer Intern at Bharat Intern, I had the invaluable opportunity to immerse
+                                     myself in the dynamic world of web development. This experience allowed me to apply my proficiency in 
+                                     HTML, CSS, JavaScript to real-world projects.</li>
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Master of computer application (M.C.A.)</span><br>2024 -  Present</li>
+                                <li>I pursued my Master of Computer Application (M.C.A.) from Chandigarh University, Chandigarh,
+                                     where I delved into the realm of Computer and Information Sciences and Support Services.
+                                      This comprehensive program equipped me with a solid foundation in various aspects of computer science,
+                                       including programming, data management, and information systems.</li>
+                                <li><span>Bachelor of computer application (B.C.A.)</span><br>2020 - 2023</li>
+                                <li>I Completed my Bachelor of Computer Application (B.C.A.) from Marwari College, Bhagalpur.</li>
+                          </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ----------------Portfolio--------------- -->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/6.jpg" >
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connect you to the talented people around the world.
+                            Download it from play store</p>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/4.jpg" >
+                    <div class="layer">
+                        <h3>2 App</h3>
+                        <p>The app connect you to the talented people around the world.
+                            Download it from play store</p>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/5.jpg" >
+                    <div class="layer">
+                        <h3>3 App</h3>
+                        <p>The app connect you to the talented people around the world.
+                            Download it from play store </p>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/abhijeet8340" target="_blank" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- --------------contact-------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="raw">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>abhijeetku8340@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91-8340463107</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/awinash.kumar.501" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/abhijeet-kumar-7903aa239/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/abhijeet8340" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        
+                    </div>
+                    <a href="Images/Abhijeet Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                       <input type="text" name="Name" placeholder="Your Name" required>
+                       <input type="email" name="Email" placeholder="Your Email" required>
+                       <textarea name="Message" rows="6" placeholder="Your Message"></textarea> 
+                       <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright (c) Abhijeet. 2024</p>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
